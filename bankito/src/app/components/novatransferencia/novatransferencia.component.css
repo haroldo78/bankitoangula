@@ -13,3 +13,135 @@
     margin-top: 40px;
     border-radius: 12px 12px 0px 0px;
 }
+.conteiner{
+    width: 412px;
+    margin: auto;
+}
+h1{
+    position: relative;
+    width: 229px;
+    height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 129px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+span.valor, span.conta{
+    position: relative;
+    width: 100%;
+    height: 22px;
+    margin: 0 auto;
+    display: block;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+span.numeros, span.conta-numero {
+    position: relative;
+    width: 100%;
+    height: 28px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    top: 14px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 20, 119, 0.37);
+}
+span.conta{
+    top: 156px;
+}
+span.conta-numero{
+    margin-bottom: 113px;
+    /* width: 197px; */
+    top: 173px;
+}
+h2{
+    position: relative;
+    width: 93px;
+    height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    top: 173px;
+    /* padding-top: 26px;
+    padding-bottom: 129px; */
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+p{
+    position: relative;
+    width: 59%;
+    height: 14px;
+    left: 22%;
+    top: 167px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+.transferencia{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    top: 190px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FF1477;
+}
+button{
+    position: relative;
+    width: 342px;
+    height: 40px;
+    left: 30px;
+    background: #FF1477;
+    border-radius: 25px;
+    border: 1px solid #FF1477;
+    top: 302px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media (max-width: 440px) {
+    .conteiner{
+        width: 95%;
+    }
+    button.btn {
+        width: 100%;
+        left: 0;
+    }
+}
