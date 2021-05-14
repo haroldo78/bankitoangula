@@ -6,6 +6,10 @@
     margin: -8px !important;
     padding: 0 !important;
 }
+svg.setabanca {
+    margin-left: 38px;
+    margin-top: 87px;
+}
 .logo {
     width: 114px;
     height: 81px;
@@ -25,7 +29,7 @@
 }
 .logo .vector-ito{
     position: relative;
-    right: -70.87%;
+    right: -64.87%;
     bottom: 6.78%;
     color: #FFFFFF;
     font-size: 20px;

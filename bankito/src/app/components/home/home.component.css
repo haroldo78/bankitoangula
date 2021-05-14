@@ -1,0 +1,309 @@
+.body{
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: -8px !important;
+    padding: 0 !important;
+}
+.conteiner{
+    width: 412px;
+    margin: 0 auto;
+    background-color: #FF1477;
+    height: 800px;
+}
+.rectangle4{
+    width: 100%;
+    height: 311px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 0px 100px
+}
+.rectangletranf{
+    position: absolute;
+    width: 412px;
+    height: 80px;
+    /* left: 181px; */
+    top: 275px;
+    background: #FF1477;
+    border-radius: 0px 87.5px 87.5px 0px;
+    z-index: 2;
+}
+.rectangle5{
+    width: 100%;
+    height: 593px;
+    left: 0px;
+    margin-top: 10px;
+    background: #202020;
+    border-radius: 97px 0px 0px 0px;
+}
+svg {
+    padding-top: 62px;
+    position: absolute;
+    margin-left: 15.63px
+}
+svg.fecha {
+    padding-top: 58px;
+    margin-left: 24px;
+}
+.rectangle4 .vector-bank{
+    max-width: 50px;
+    margin: 0 auto;
+    padding-top: 58px
+}
+.rectangle4 .vector-ito{
+    max-width: 2px;
+    margin: 0 auto;
+    font-size: 11px;
+    
+}
+.imagem{
+    width: 49.6px;
+    height: 40.2px;
+    float: right;
+    margin-top: -36px;
+}
+svg.imge {
+    padding: 0;
+    margin-left: auto;
+    border-radius: 16px 16px 16px 16px;
+}
+.saldo{
+    width: 149px;
+    height: 36px;
+    margin-left: 15.63px;
+    margin-top: 49.55px;
+}
+.saldo p{
+    width: 36px;
+    height: 12px;
+    left: 27px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+.saldo span{
+    width: 100%;
+    height: 22px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+.entradasaida{
+    width: 369px;
+    height: 50px;
+    margin: auto;
+    background: #F5F5F5;
+    border-radius: 25px;
+    margin-top: 26px;
+}
+span.entrada{
+    width: 70px;
+    height: 8px;
+    margin-left: 21px;
+    margin-top: 11px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+span.entradavalor {
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    margin-left: -61px;
+    padding-top: 25px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+span.saida {
+    position: absolute;
+    width: 59px;
+    height: 8px;
+    margin-left: 183px;
+    top: 217px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.1em;
+    color: #808080;
+}
+span.saidavalor {
+    position: absolute;
+    width: 82px;
+    height: 12px;
+    margin-left: 183px;
+    top: 232px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    color: #202020;
+}
+span.barra {
+    position: absolute;
+    width: 11.66px;
+    height: 0px;
+    margin-left: 82px;
+    /* left: 204px; */
+    top: 227px;
+    border: 1px solid #808080;
+    transform: rotate(120.96deg);
+}
+.setas {
+    position: relative;
+    left: 9%;
+    top: 24px;
+    width: 30px;
+    height: 30px;
+}
+svg.setaS {
+    position: relative;
+    padding-top: 2px;
+    margin-left: 4px;
+}
+svg.setaB {
+    padding-top: 14px;
+    margin-left: -21px;
+    position: absolute;
+}
+.transferencia{
+    width: 104px;
+    /* height: 75px; */
+    margin-left: 20%;
+    position: absolute;
+    margin-top: -4px;
+    /* padding-top: 2px; */
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.PIXTEDDOC{
+    position: absolute;
+    width: 196px;
+    /* height: 8px; */
+    left: 82px;
+    top: 43px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.circulo {
+    right: 8%;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 23px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 14px;
+}
+span.soma {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+span.extrato {
+    position: absolute;
+    width: 102px;
+    height: 22px;
+    margin-left: 40px;
+    /* top: 156px; */
+    padding-top: 67px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.line {
+    position: absolute;
+    width: 102px;
+    height: 0px;
+    margin-left: 40px;
+    top: 414px;
+    border: 1px solid #FFFFFF;
+}
+select#banki {
+    margin-left: 228px;
+    margin-top: 65px;
+    position: absolute;
+    width: 158px;
+    height: 35px;
+    font-family: NanumGothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background:#202020;
+    padding: 9px;
+}
+svg.setabox {
+    position: absolute;
+    margin-left: 368px;
+    z-index: 99999;
+    margin-top: 16px;
+}
+
+
+
+
+@media (max-width: 430px){
+    .conteiner {
+        width: 100%;
+    }
+    .rectangletranf {
+        width: 100%;
+    }
+    select#banki {
+        margin-left: 0;
+        right: 8%;
+    }
+    svg.setabox {
+        margin-left: 0;
+        right: 9%;
+    }
+
+}

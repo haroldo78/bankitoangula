@@ -17,13 +17,18 @@
     width: 412px;
     margin: auto;
 }
+svg.setapreta {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 37px;
+}
 h1{
     position: relative;
     width: 229px;
     height: 22px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 37px;
     padding-bottom: 129px;
     font-family: NanumGothic;
     font-style: normal;
@@ -79,8 +84,6 @@ h2{
     margin: 0 auto;
     text-align: center;
     top: 173px;
-    /* padding-top: 26px;
-    padding-bottom: 129px; */
     font-family: NanumGothic;
     font-style: normal;
     font-weight: normal;
